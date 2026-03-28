@@ -183,6 +183,31 @@ a:hover {
   color: var(--color-accent);
 }
 
+/* === Teaching List === */
+.teaching-list {
+  list-style: none;
+}
+
+.teaching-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
+.teaching-list li:last-child {
+  border-bottom: none;
+}
+
+.teaching-years {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-right: 0.4rem;
+}
+
 /* === Music Section === */
 .music-project {
   margin-bottom: 2rem;
