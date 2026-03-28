@@ -230,6 +230,17 @@ blockquote {
   color: var(--color-text-light);
 }
 
+a.pub-link-journal {
+  color: #2471a3;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a.pub-link-journal:hover {
+  color: #1a5276;
+}
+
 .pub-abstract {
   font-size: 0.85rem;
   color: var(--color-text-light);
