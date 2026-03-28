@@ -17,7 +17,7 @@
   --color-card-bg: #fff;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
-  --max-width: 720px;
+  --max-width: 900px;
   --spacing: 1.5rem;
 }
 
@@ -242,10 +242,10 @@ a.pub-link-journal:hover {
 }
 
 .pub-abstract {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--color-text-light);
-  margin-top: 0.4rem;
-  line-height: 1.6;
+  margin-top: 0.3rem;
+  line-height: 1.5;
 }
 
 /* === Teaching List === */
