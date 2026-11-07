@@ -21,15 +21,13 @@ Quarto website, published to GitHub Pages from the `gh-pages` branch. Source on 
 Quarto ships with RStudio: `"C:/Program Files/RStudio/resources/app/bin/quarto/bin/quarto.exe"`.
 
 ```
-quarto render                 # builds _site/ (gitignored)
-quarto preview                # local preview with reload
-quarto publish gh-pages       # renders and pushes the site to the gh-pages branch (asks to confirm)
+bash publish.sh               # commit first: renders HEAD in a temp folder, pushes _site to gh-pages
+quarto preview                # local preview with reload (may hit the Dropbox lock; retry)
 ```
 
-`.quarto/` and `_site/` are marked Dropbox-ignored (NTFS stream `com.dropbox.ignored`); without that,
-Dropbox locks them mid-render. If a fresh checkout shows "being used by another process", set the flag
-again (PowerShell: `Set-Content -Path .quarto -Stream com.dropbox.ignored -Value 1`, same for `_site`).
-Stop any local web server on `_site/` before rendering.
+Do not use `quarto publish gh-pages` or `quarto render` here: Dropbox locks `.quarto/` mid-render ("being
+used by another process"), even with the Dropbox-ignore flag on it. `publish.sh` renders outside Dropbox
+instead. Pages serves the `gh-pages` branch.
 
 ## Conventions
 
