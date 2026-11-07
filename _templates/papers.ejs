@@ -1,0 +1,18 @@
+<%
+// Renders papers from data/papers.yml (generated in the research hub; do not edit that file here).
+// Keep HTML lines unindented: Quarto reads the output as Markdown, where 4-space indents become code.
+function names(list) {
+  if (!list || list.length === 0) return "";
+  if (list.length === 1) return list[0];
+  return list.slice(0, -1).join(", ") + " and " + list[list.length - 1];
+}
+%>
+<% for (const p of items) { const l = p.links || {}; %>
+<article class="paper <%= p.status %>">
+<h3 class="paper-title"><%= p.title %></h3>
+<p class="paper-meta"><% if (p.coauthors && p.coauthors.length) { %>with <%= names(p.coauthors) %><% } %><% if (p.journal) { %><%= (p.coauthors && p.coauthors.length) ? " · " : "" %><span class="venue"><%= p.journal %></span><% } %><% if (p.year && p.status !== "wip") { %>, <%= p.year %><% } %></p>
+<% if (p.summary) { %><p class="paper-summary"><%= p.summary %></p><% } %>
+<% if (p.abstract) { %><details><summary>Abstract</summary><p><%= p.abstract %></p></details><% } %>
+<% if (l.doi || l.pdf || l.url || l.code || l.page) { %><div class="paper-links"><% if (l.doi) { %><a href="https://doi.org/<%= l.doi %>"><i class="bi bi-box-arrow-up-right"></i> DOI</a><% } %><% if (l.pdf) { %><a href="<%= l.pdf %>"><i class="bi bi-file-earmark-pdf"></i> Paper</a><% } %><% if (l.url) { %><a href="<%= l.url %>"><i class="bi bi-book"></i> Read</a><% } %><% if (l.code) { %><a href="<%= l.code %>"><i class="bi bi-github"></i> Code</a><% } %><% if (l.page) { %><a href="<%= l.page %>"><i class="bi bi-arrow-repeat"></i> Replication &amp; extension</a><% } %></div><% } %>
+</article>
+<% } %>

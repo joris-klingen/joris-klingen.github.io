@@ -1,0 +1,26 @@
+---
+title: "Music"
+subtitle: "Besides research and data science, I'm involved in music projects."
+---
+
+::: {.music-project}
+### Bovenburen
+
+Dutch pop band. See our [Instagram](https://www.instagram.com/bovenburen/) or [bovenburen.com](https://bovenburen.com) for an impression, or listen on [Spotify](https://open.spotify.com/search/bovenburen).
+:::
+
+::: {.music-project}
+### Flamingo Hitmix
+
+Electronic live dance act. See our [Instagram](https://www.instagram.com/flamingohitmix/) for an impression. You can book us for a live show or send me a message.
+:::
+
+::: {.music-project}
+### Previous music projects
+
+A selection of songs and live recordings from previous music projects, including electronic dub act Steppers for Mankind and live house act Novio.
+
+::: {.link-row}
+<a href="https://open.spotify.com/search/steppers%20for%20mankind"><i class="bi bi-spotify"></i> Steppers for Mankind on Spotify</a>
+:::
+:::

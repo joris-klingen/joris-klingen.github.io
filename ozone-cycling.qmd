@@ -1,0 +1,47 @@
+---
+title: "Urban Air Pollution and Time Losses: Evidence from Cyclists in London — Revisited"
+---
+
+[Klingen and van Ommeren (2020)](https://doi.org/10.1016/j.regsciurbeco.2019.103504) showed that ozone pollution reduces cycling speed in London, using 42 million Santander Cycles trips during 2013–2017.
+A 10 ppb increase in ozone (roughly the difference between a clean and a moderately polluted day) reduced average speed by 0.3–0.4%, with effects detectable at concentrations as low as 20 ppb.
+The paper used four complementary identification strategies to rule out confounding from weather, traffic, and cyclist sorting.
+
+This repository extends the analysis to 108 million trips through 2025, tripling the original sample.
+The code replicates the original estimation and tests whether the ozone–speed relationship persists across a period that includes COVID-19, the Ultra Low Emission Zone expansion, and substantial changes to London's cycling infrastructure.
+It does.
+
+## Results
+
+The within-day specification exploits hourly ozone variation within a given day, controlling for day fixed effects, day-of-week-by-hour-by-daylight fixed effects, flexible weather controls, and other pollutants.
+The table below compares the original estimate to our replication and the extended sample.
+
+**Effect of ozone on cycling speed (km/h per 10 ppb), within-day estimation**
+
+| Sample | Coefficient | SE | N |
+|---|---|---|---|
+| Original (2013–2017) | -0.053\*\*\* | (0.016) | ~40,000 |
+| Replication (2013–2017) | -0.072\*\*\* | (0.016) | 28,692 |
+| Extension (2013–2025) | -0.081\*\*\* | (0.010) | 76,454 |
+
+: \*\*\* p<0.01 {.striped}
+
+Using 5 ppb ozone bin indicators, both the replication and extension samples show a roughly linear decline in speed with increasing ozone, with effects becoming visible around 15–20 ppb, consistent with the original finding that the threshold is well below regulatory standards.
+
+![](https://raw.githubusercontent.com/joris-klingen/ozone_cycling/main/output/figures/nonlinearity_comparison.png){fig-alt="Non-linear ozone effects on cycling speed"}
+
+Estimating the model separately for each year shows that the negative ozone effect is present throughout the sample period, with no sign of attenuation.
+The wide confidence interval in 2021 reflects reduced within-day ozone variation during COVID-19 lockdowns.
+
+![](https://raw.githubusercontent.com/joris-klingen/ozone_cycling/main/output/figures/yearly_ozone_effect.png){fig-alt="Ozone effect on cycling speed by year"}
+
+## Data
+
+The analysis uses three data sources:
+
+- **Cycling trips**: Transport for London (TfL) Santander Cycles, available from the [TfL cycling data portal](https://cycling.data.tfl.gov.uk/)
+- **Air quality**: London Air Quality Network, hourly data from 5 monitoring stations (BL0, KC1, RI2, SK6, TH4), via the [Imperial College API](https://www.londonair.org.uk/LondonAir/API/)
+- **Weather**: [Open-Meteo Archive API](https://open-meteo.com/en/docs/historical-weather-api), central London (51.52N, 0.11W)
+
+## Code
+
+Full replication code is available on [GitHub](https://github.com/joris-klingen/ozone_cycling).

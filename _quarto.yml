@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+
+website:
+  title: "Joris Klingen"
+  site-url: https://joris-klingen.github.io
+  description: "Economist at CPB Netherlands Bureau for Economic Policy Analysis. Research in transport, urban and environmental economics."
+  navbar:
+    background: light
+    right:
+      - text: About
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Music
+        href: music.qmd
+  page-footer:
+    center: "© 2026 Joris Klingen"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    toc: false
+    page-layout: article
+    smooth-scroll: true
+    anchor-sections: false
+    link-external-newwindow: true

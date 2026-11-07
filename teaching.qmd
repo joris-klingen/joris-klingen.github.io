@@ -1,0 +1,25 @@
+---
+title: "Teaching"
+---
+
+```{=html}
+<ul class="timeline">
+  <li><span class="years">2021–2026</span><span class="what">Guest lectures for the MSc courses Transport Economics and Urban Economics at VU Amsterdam.</span></li>
+  <li><span class="years">2018–2022</span><span class="what"><strong>MSc thesis supervision.</strong> Daily thesis supervisor for students in the Spatial Transport and Environmental Economics programme, at VU Amsterdam.</span></li>
+  <li><span class="years">2019–2020</span><span class="what"><strong>Urban and Transport Economics.</strong> PhD/MPhil course, teaching assistant for Prof. Jos van Ommeren and Prof. dr. Jan Rouwendal, at Tinbergen Institute.</span></li>
+  <li><span class="years">2016–2019</span><span class="what"><strong>Public Economics.</strong> Second-year BSc course, teaching assistant for dr. Stefan Hochguertel, at VU Amsterdam.</span></li>
+  <li><span class="years">2016–2017</span><span class="what"><strong>Mathematics.</strong> PhD/MPhil course on linear algebra and calculus, teaching assistant for dr. Florian Wagener, at Tinbergen Institute.</span></li>
+  <li><span class="years">2015–2019</span><span class="what"><strong>Academic Skills.</strong> First-year BSc course, teaching assistant for Prof. dr. Herbert Rijken, at VU Amsterdam.</span></li>
+  <li><span class="years">2015–2019</span><span class="what"><strong>De Stad (The City).</strong> Interdisciplinary first-year BSc course on urban economics and urban studies, teaching assistant and course coordinator for Prof. dr. Henri de Groot, at University of Amsterdam.</span></li>
+  <li><span class="years">2014–2016</span><span class="what"><strong>Macroeconomics 1.</strong> First-year BSc course, teaching assistant for Prof. dr. Eric Bartelsman, at VU Amsterdam.</span></li>
+  <li><span class="years">2014–2015</span><span class="what"><strong>Fieldwork Earth Sciences and Economics.</strong> First-year BSc course, teaching assistant for dr. Mark Bokhorst, at VU Amsterdam.</span></li>
+  <li><span class="years">2014–2015</span><span class="what"><strong>Regionale Economie (Regional Economics).</strong> Second-year BSc course, teaching assistant for dr. Peter Mulder, at VU Amsterdam.</span></li>
+  <li><span class="years">2014–2015</span><span class="what"><strong>Structural Policy.</strong> Course within the minor Economics, teaching assistant for dr. Stefan Hochguertel and Prof. dr. Cees Withagen, at VU Amsterdam.</span></li>
+  <li><span class="years">2014–2015</span><span class="what"><strong>Future of Food.</strong> Second-year BSc course on political science and agricultural economics, teaching assistant for Prof. dr. John Grin, at University of Amsterdam.</span></li>
+  <li><span class="years">2014–2015</span><span class="what"><strong>World Food Systems.</strong> Second-year BSc course on socio-economic aspects of food production, teaching assistant for Prof. dr. Marc Davidson, at University of Amsterdam.</span></li>
+  <li><span class="years">2014–2015</span><span class="what"><strong>Food Production.</strong> Second-year BSc course with an interdisciplinary approach to food production, teaching assistant for dr. Albert Tietema, at University of Amsterdam.</span></li>
+  <li><span class="years">2014–2015</span><span class="what"><strong>Toekomstige Uitdagingen en Innovatieve Oplossingen (Future Challenges and Innovative Solutions).</strong> First-year BSc course on academic skills and systems thinking, teaching assistant for dr. Coyan Tromp and dr. Credis Ramnelt, at University of Amsterdam.</span></li>
+  <li><span class="years">2012–2015</span><span class="what"><strong>Het Economisch Perspectief (The Economic Perspective).</strong> First-year BSc course on environmental economics, course coordinator and teaching assistant for Prof. dr. Marc Davidson, at University of Amsterdam.</span></li>
+  <li><span class="years">2010–2011</span><span class="what"><strong>Het Economisch Perspectief (The Economic Perspective).</strong> First-year BSc course on environmental economics, student assistant for Prof. dr. Svedas van Wijnbergen, at University of Amsterdam.</span></li>
+</ul>
+```

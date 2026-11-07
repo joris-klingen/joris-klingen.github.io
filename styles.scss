@@ -1,0 +1,92 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$body-bg: #fbfbfa;
+$body-color: #2b2b2b;
+$primary: #1a5276;
+$link-color: #1a5276;
+$link-decoration: none;
+$navbar-bg: #fbfbfa;
+$navbar-fg: #555;
+$navbar-hl: #1a5276;
+$footer-bg: #fbfbfa;
+$headings-font-weight: 650;
+$line-height-base: 1.65;
+$font-size-root: 16px;
+
+/*-- scss:rules --*/
+$muted: #6b6b6b;
+$rule: #e6e4df;
+$card: #ffffff;
+
+body { -webkit-font-smoothing: antialiased; }
+main.content { max-width: 780px; }
+a:hover { color: #2980b9; text-decoration: underline; text-underline-offset: 3px; }
+
+.navbar { border-bottom: 1px solid $rule; }
+.navbar-brand .navbar-title { font-weight: 650; color: $body-color; }
+.nav-link { font-weight: 500; }
+.nav-footer { border-top: 1px solid $rule; color: $muted; font-size: .85rem; }
+
+h1.title { font-size: 2rem; letter-spacing: -0.02em; }
+h2 {
+  font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; color: $muted;
+  border-bottom: 1px solid $rule; padding-bottom: .4rem; margin-top: 2.6rem; margin-bottom: 1.2rem;
+}
+
+// About page ----
+.hero { padding: 1.5rem 0 .5rem; }
+.hero .name { font-size: 2.6rem; font-weight: 700; letter-spacing: -0.03em; margin: 0; line-height: 1.1; }
+.hero .role { font-size: 1.1rem; color: $muted; margin: .5rem 0 1.25rem; }
+.chips { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 1rem; padding: 0; }
+.chips span {
+  font-size: .8rem; padding: .2rem .65rem; border-radius: 999px;
+  background: rgba(26, 82, 118, .07); color: #1a5276;
+}
+.link-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; }
+.link-row a, .paper-links a {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-size: .8rem; font-weight: 500; padding: .25rem .7rem; border-radius: 6px;
+  border: 1px solid $rule; background: $card; color: $body-color;
+}
+.link-row a:hover, .paper-links a:hover { border-color: #1a5276; color: #1a5276; text-decoration: none; }
+
+// Research page ----
+.paper {
+  background: $card; border: 1px solid $rule; border-left: 3px solid #1a5276;
+  border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: .9rem;
+}
+.paper.wip { border-left-color: #c58b2b; }
+.paper.thesis { border-left-color: #6b6b6b; }
+.paper-title { font-size: 1.02rem; font-weight: 600; line-height: 1.4; margin: 0 0 .25rem; }
+.paper-meta { font-size: .88rem; color: $muted; margin: 0; }
+.paper-meta .venue { font-style: italic; color: $body-color; }
+.paper-summary { font-size: .92rem; margin: .5rem 0 0; }
+.paper details { margin-top: .5rem; }
+.paper summary { font-size: .82rem; font-weight: 500; color: #1a5276; cursor: pointer; list-style: none; }
+.paper summary::-webkit-details-marker { display: none; }
+.paper summary::before { content: "▸ "; }
+.paper details[open] summary::before { content: "▾ "; }
+.paper details p { font-size: .9rem; margin: .5rem 0 0; color: #3a3a3a; }
+.paper-links { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .65rem; }
+
+// Teaching page ----
+.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline li {
+  display: grid; grid-template-columns: 7.5rem 1fr; gap: 1rem;
+  padding: .7rem 0; border-bottom: 1px solid $rule;
+}
+.timeline .years { color: $muted; font-size: .88rem; font-variant-numeric: tabular-nums; }
+.timeline .what { font-size: .95rem; }
+@media (max-width: 576px) {
+  .timeline li { grid-template-columns: 1fr; gap: .1rem; }
+}
+
+// Music page ----
+.music-project { margin-bottom: 1.5rem; }
+.music-project h3 { font-size: 1.1rem; margin-bottom: .3rem; }
+
+// Ozone page ----
+.figure img, .quarto-figure img { max-width: 100%; border: 1px solid $rule; border-radius: 6px; }
+table { font-size: .9rem; }
