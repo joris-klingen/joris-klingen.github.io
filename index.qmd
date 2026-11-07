@@ -15,15 +15,15 @@ pagetitle: "Joris Klingen"
 <img src="images/joris.png" class="portrait" alt="Portrait of Joris Klingen">
 :::
 
-I am an economist at the **CPB Netherlands Bureau for Economic Policy Analysis**.
-I have a PhD from [Spatial Economics, Vrije Universiteit Amsterdam](https://spatialeconomics.nl/), where I was supervised by Jos van Ommeren and Erik Verhoef.
-Before my PhD, I studied Economics and Econometrics at the [Tinbergen Institute](https://www.tinbergen.nl), Spatial Transport and Environmental Economics at Vrije Universiteit Amsterdam, and Future Planet Studies at the Universiteit van Amsterdam.
-In 2019, I visited Imperial College London, where I worked with Dan Graham at the [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/).
+At CPB, I work on energy policy.
+I hold a PhD from [Spatial Economics at Vrije Universiteit Amsterdam](https://spatialeconomics.nl/), supervised by Jos van Ommeren and Erik Verhoef.
+Before that, I studied Economics and Econometrics at the [Tinbergen Institute](https://www.tinbergen.nl), Spatial, Transport and Environmental Economics at the VU, and Future Planet Studies at the Universiteit van Amsterdam.
+In 2019 I was a visiting researcher with Dan Graham at Imperial College London's [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/).
 
-My research is empirical work in transport and environmental economics.
-So far I have studied road safety, the immediate effects of air pollution, and urban cycling.
-For the latter, I use public data from bicycle-sharing schemes in major cities (Paris, London, New York City).
-See [Research](research.qmd) for papers and work in progress.
+My research is empirical work in transport and environmental economics, often built on natural experiments in large public datasets.
+I have studied how smartphone use affects road safety, how air pollution slows cyclists and changes risk-taking at the chessboard, and how cyclists respond to metro disruptions and new bike lanes.
+Much of this work uses trip data from bike-sharing schemes in Paris, London and New York City.
+My current projects, all in New York, look at taxi tipping, e-bike choice and protected bike lanes; see [Research](research.qmd).
 
 I'm also a musician and like to develop music software.
 I play keys in [Flamingo Hitmix](https://flamingohitmix.com) and drums in [Bovenburen](https://bovenburen.com) (see also [Music](music.qmd)).
