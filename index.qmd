@@ -15,15 +15,16 @@ pagetitle: "Joris Klingen"
 <img src="images/joris.png" class="portrait" alt="Portrait of Joris Klingen">
 :::
 
-At CPB, I study household energy use, such as responses to energy prices and the adoption of solar panels.
+I'm an empirical economist working on how people travel and how they use energy.
+At CPB, I study household energy use and the effects of green technologies such as solar panels and electric vehicles.
+
+Much of my research uses everyday data, like bike-share trips, taxi rides and even chess games, to answer questions about transport, safety, energy consumption and the environment.
+See [Research](research.qmd) for papers and work in progress.
+
 I hold a PhD from [Spatial Economics](https://spatialeconomics.nl/) at Vrije Universiteit Amsterdam, supervised by Jos van Ommeren and Erik Verhoef.
 I studied at the [Tinbergen Institute](https://www.tinbergen.nl), the VU and the Universiteit van Amsterdam, and visited Dan Graham at Imperial College London's [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/) in 2019.
 
-My research interests are in transport, urban and environmental economics, in particular cycling, road safety and air pollution.
-I mostly use natural experiments and large public datasets, such as trip data from bike-sharing schemes in Paris, London and New York.
-See [Research](research.qmd) for papers and work in progress.
-
-I'm also a musician: I play keys in [Flamingo Hitmix](https://flamingohitmix.com), drums in [Bovenburen](https://bovenburen.com), and I develop music software (see [Music](music.qmd)).
+I'm also a musician: I play keys in [Flamingo Hitmix](https://flamingohitmix.com) and drums in [Bovenburen](https://bovenburen.com), and I like to develop software that is used in these music projects (see [Music](music.qmd)).
 
 ::: {.link-row}
 <a href="https://scholar.google.co.uk/citations?user=lJSOTXcAAAAJ"><i class="bi bi-mortarboard"></i> Google Scholar</a>
