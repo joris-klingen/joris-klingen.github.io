@@ -26,7 +26,7 @@ For the latter, I use public data from bicycle-sharing schemes in major cities (
 See [Research](research.qmd) for papers and work in progress.
 
 I'm also a musician and like to develop music software.
-I play keys in [Flamingo Hitmix](https://flamingohitmix.com) and drums in [Bovenburen](https://bovenburen.com).
+I play keys in [Flamingo Hitmix](https://flamingohitmix.com) and drums in [Bovenburen](https://bovenburen.com) (see also [Music](music.qmd)).
 
 ::: {.link-row}
 <a href="https://scholar.google.co.uk/citations?user=lJSOTXcAAAAJ"><i class="bi bi-mortarboard"></i> Google Scholar</a>
