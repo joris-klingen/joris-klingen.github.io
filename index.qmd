@@ -16,17 +16,14 @@ pagetitle: "Joris Klingen"
 :::
 
 At CPB, I work on energy policy.
-I hold a PhD from [Spatial Economics at Vrije Universiteit Amsterdam](https://spatialeconomics.nl/), supervised by Jos van Ommeren and Erik Verhoef.
-Before that, I studied Economics and Econometrics at the [Tinbergen Institute](https://www.tinbergen.nl), Spatial, Transport and Environmental Economics at the VU, and Future Planet Studies at the Universiteit van Amsterdam.
-In 2019 I was a visiting researcher with Dan Graham at Imperial College London's [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/).
+I hold a PhD from [Spatial Economics](https://spatialeconomics.nl/) at Vrije Universiteit Amsterdam, supervised by Jos van Ommeren and Erik Verhoef.
+I studied at the [Tinbergen Institute](https://www.tinbergen.nl), the VU and the Universiteit van Amsterdam, and visited Dan Graham at Imperial College London's [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/) in 2019.
 
-My research is empirical work in transport and environmental economics, often built on natural experiments in large public datasets.
-I have studied how smartphone use affects road safety, how air pollution slows cyclists and changes risk-taking at the chessboard, and how cyclists respond to metro disruptions and new bike lanes.
-Much of this work uses trip data from bike-sharing schemes in Paris, London and New York City.
-My current projects, all in New York, look at taxi tipping, e-bike choice and protected bike lanes; see [Research](research.qmd).
+My research is empirical transport and environmental economics, mostly built on natural experiments.
+I have studied smartphones and road safety, air pollution and cycling (and chess), and how cyclists respond to metro disruptions and new bike lanes, often with bike-sharing data from Paris, London and New York.
+My current projects, all in New York, are on taxi tips, e-bikes and protected bike lanes; see [Research](research.qmd).
 
-I'm also a musician and like to develop music software.
-I play keys in [Flamingo Hitmix](https://flamingohitmix.com) and drums in [Bovenburen](https://bovenburen.com) (see also [Music](music.qmd)).
+I'm also a musician: I play keys in [Flamingo Hitmix](https://flamingohitmix.com), drums in [Bovenburen](https://bovenburen.com), and I develop music software (see [Music](music.qmd)).
 
 ::: {.link-row}
 <a href="https://scholar.google.co.uk/citations?user=lJSOTXcAAAAJ"><i class="bi bi-mortarboard"></i> Google Scholar</a>
