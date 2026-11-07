@@ -25,7 +25,8 @@ So far I have studied road safety, the immediate effects of air pollution, and u
 For the latter, I use public data from bicycle-sharing schemes in major cities (Paris, London, New York City).
 See [Research](research.qmd) for papers and work in progress.
 
-For fun, I am also a musician (see [Music](music.qmd)).
+I'm also a musician and like to develop music software.
+I play keys in [Flamingo Hitmix](https://flamingohitmix.com) and drums in [Bovenburen](https://bovenburen.com).
 
 ::: {.link-row}
 <a href="https://scholar.google.co.uk/citations?user=lJSOTXcAAAAJ"><i class="bi bi-mortarboard"></i> Google Scholar</a>
