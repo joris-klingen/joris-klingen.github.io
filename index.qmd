@@ -15,7 +15,7 @@ pagetitle: "Joris Klingen"
 <img src="images/joris.png" class="portrait" alt="Portrait of Joris Klingen">
 :::
 
-At CPB, I work on energy policy.
+At CPB, I do research on energy-related topics.
 I hold a PhD from [Spatial Economics](https://spatialeconomics.nl/) at Vrije Universiteit Amsterdam, supervised by Jos van Ommeren and Erik Verhoef.
 I studied at the [Tinbergen Institute](https://www.tinbergen.nl), the VU and the Universiteit van Amsterdam, and visited Dan Graham at Imperial College London's [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/) in 2019.
 
