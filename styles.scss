@@ -82,16 +82,21 @@ h2 {
 }
 .paper-meta > span:not(:last-of-type)::after { content: "·"; margin-left: .55rem; color: #b5b5b5; }
 .paper-meta .venue { font-style: italic; color: $body-color; }
-.paper-meta .act {
+.paper .act {
   font-size: .75rem; font-weight: 500; line-height: 1.5; padding: 0 .45rem; border-radius: 4px;
   border: 1px solid $rule; background: $card; color: #1a5276; cursor: pointer; margin: 0;
 }
-.paper-meta .act:hover { border-color: #1a5276; text-decoration: none; }
+.paper .act:hover { border-color: #1a5276; text-decoration: none; }
+.paper-title .blog { font-size: .72rem; vertical-align: .12em; margin-left: .35rem; white-space: nowrap; }
 .abs-label::before { content: "▸ "; }
 .paper-summary { font-size: .9rem; margin: .3rem 0 0; }
 // Abstract toggle without JavaScript: hidden checkbox, label in the meta line
 .abs-toggle { position: absolute; opacity: 0; width: 1px; height: 1px; pointer-events: none; }
-.paper-abstract { display: none; font-size: .88rem; color: #3a3a3a; margin: .45rem 0 0; }
+.paper-abstract {
+  display: none; font-size: .88rem; line-height: 1.6; color: #3a3a3a; margin: .5rem 0 .2rem;
+  background: $card; border: 1px solid $rule; border-radius: 8px; padding: .75rem 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}
 .abs-toggle:checked ~ .paper-abstract { display: block; }
 .abs-toggle:checked ~ .paper-meta .abs-label { background: #1a5276; color: #fff; border-color: #1a5276; }
 .abs-toggle:checked ~ .paper-meta .abs-label::before { content: "▾ "; }
