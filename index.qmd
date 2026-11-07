@@ -2,13 +2,17 @@
 pagetitle: "Joris Klingen"
 ---
 
-::: {.hero}
+::: {.hero .hero-grid}
+::: {.hero-text}
 <p class="name">Joris Klingen</p>
 <p class="role">Economist at CPB Netherlands Bureau for Economic Policy Analysis</p>
 
 ::: {.chips}
 <span>Transport economics</span><span>Urban economics</span><span>Environmental economics</span><span>Road safety</span><span>Cycling</span>
 :::
+:::
+
+<img src="images/joris.png" class="portrait" alt="Portrait of Joris Klingen">
 :::
 
 I am an economist at the **CPB Netherlands Bureau for Economic Policy Analysis**.

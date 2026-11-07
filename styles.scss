@@ -25,6 +25,8 @@ main.content { max-width: 780px; }
 a:hover { color: #2980b9; text-decoration: underline; text-underline-offset: 3px; }
 
 .navbar { border-bottom: 1px solid $rule; }
+// Keep brand and menu within the content width instead of the window edges
+.navbar > .navbar-container { max-width: 860px; margin: 0 auto; padding-left: 1.5rem; padding-right: 1.5rem; }
 .navbar-brand .navbar-title { font-weight: 650; color: $body-color; }
 .nav-link { font-weight: 500; }
 .nav-footer { border-top: 1px solid $rule; color: $muted; font-size: .85rem; }
@@ -39,37 +41,61 @@ h2 {
 .hero { padding: 1.5rem 0 .5rem; }
 .hero .name { font-size: 2.6rem; font-weight: 700; letter-spacing: -0.03em; margin: 0; line-height: 1.1; }
 .hero .role { font-size: 1.1rem; color: $muted; margin: .5rem 0 1.25rem; }
-.chips { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 1rem; padding: 0; }
+.chips { margin: .5rem 0 1rem; }
+.chips > p { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0; }
 .chips span {
+  white-space: nowrap;
   font-size: .8rem; padding: .2rem .65rem; border-radius: 999px;
   background: rgba(26, 82, 118, .07); color: #1a5276;
 }
 .link-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1rem; }
-.link-row a, .paper-links a {
+.hero-grid { display: flex; align-items: center; gap: 2.25rem; }
+.hero-grid .hero-text { flex: 1; min-width: 0; }
+.portrait {
+  width: 170px; height: 170px; flex-shrink: 0; border-radius: 50%;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, .12);
+}
+@media (max-width: 576px) {
+  .hero-grid { flex-direction: column-reverse; align-items: flex-start; gap: 1.25rem; }
+  .portrait { width: 132px; height: 132px; }
+  .hero .name { font-size: 2.1rem; }
+}
+.link-row a {
   display: inline-flex; align-items: center; gap: .35rem;
   font-size: .8rem; font-weight: 500; padding: .25rem .7rem; border-radius: 6px;
   border: 1px solid $rule; background: $card; color: $body-color;
 }
-.link-row a:hover, .paper-links a:hover { border-color: #1a5276; color: #1a5276; text-decoration: none; }
+.link-row a:hover { border-color: #1a5276; color: #1a5276; text-decoration: none; }
 
 // Research page ----
 .paper {
-  background: $card; border: 1px solid $rule; border-left: 3px solid #1a5276;
-  border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: .9rem;
+  position: relative;
+  border-left: 3px solid #1a5276; padding: .1rem 0 .1rem .9rem; margin-bottom: 1.15rem;
 }
 .paper.wip { border-left-color: #c58b2b; }
-.paper.thesis { border-left-color: #6b6b6b; }
-.paper-title { font-size: 1.02rem; font-weight: 600; line-height: 1.4; margin: 0 0 .25rem; }
-.paper-meta { font-size: .88rem; color: $muted; margin: 0; }
+.paper.thesis { border-left-color: #9a9a9a; }
+.paper-title { font-size: 1rem; font-weight: 600; line-height: 1.35; margin: 0 0 .15rem; }
+// One line: co-authors · journal, year · DOI · Abstract (wraps on narrow screens)
+.paper-meta {
+  display: flex; flex-wrap: wrap; align-items: baseline; column-gap: .55rem; row-gap: .15rem;
+  font-size: .86rem; color: $muted; margin: 0;
+}
+.paper-meta > span:not(:last-of-type)::after { content: "·"; margin-left: .55rem; color: #b5b5b5; }
 .paper-meta .venue { font-style: italic; color: $body-color; }
-.paper-summary { font-size: .92rem; margin: .5rem 0 0; }
-.paper details { margin-top: .5rem; }
-.paper summary { font-size: .82rem; font-weight: 500; color: #1a5276; cursor: pointer; list-style: none; }
-.paper summary::-webkit-details-marker { display: none; }
-.paper summary::before { content: "▸ "; }
-.paper details[open] summary::before { content: "▾ "; }
-.paper details p { font-size: .9rem; margin: .5rem 0 0; color: #3a3a3a; }
-.paper-links { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .65rem; }
+.paper-meta .act {
+  font-size: .75rem; font-weight: 500; line-height: 1.5; padding: 0 .45rem; border-radius: 4px;
+  border: 1px solid $rule; background: $card; color: #1a5276; cursor: pointer; margin: 0;
+}
+.paper-meta .act:hover { border-color: #1a5276; text-decoration: none; }
+.abs-label::before { content: "▸ "; }
+.paper-summary { font-size: .9rem; margin: .3rem 0 0; }
+// Abstract toggle without JavaScript: hidden checkbox, label in the meta line
+.abs-toggle { position: absolute; opacity: 0; width: 1px; height: 1px; pointer-events: none; }
+.paper-abstract { display: none; font-size: .88rem; color: #3a3a3a; margin: .45rem 0 0; }
+.abs-toggle:checked ~ .paper-abstract { display: block; }
+.abs-toggle:checked ~ .paper-meta .abs-label { background: #1a5276; color: #fff; border-color: #1a5276; }
+.abs-toggle:checked ~ .paper-meta .abs-label::before { content: "▾ "; }
+.abs-toggle:focus-visible ~ .paper-meta .abs-label { outline: 2px solid #2980b9; outline-offset: 2px; }
 
 // Teaching page ----
 .timeline { list-style: none; padding: 0; margin: 0; }
