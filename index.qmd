@@ -8,7 +8,7 @@ pagetitle: "Joris Klingen"
 <p class="role">Economist at CPB Netherlands Bureau for Economic Policy Analysis</p>
 
 ::: {.chips}
-<span>Transport economics</span><span>Urban economics</span><span>Environmental economics</span><span>Road safety</span><span>Cycling</span>
+<span>Transport</span><span>Urban</span><span>Environmental</span><span>Energy</span><span>Road safety</span><span>Cycling</span>
 :::
 :::
 
