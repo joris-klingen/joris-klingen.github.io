@@ -19,9 +19,9 @@ At CPB, I study household energy use, such as responses to energy prices and the
 I hold a PhD from [Spatial Economics](https://spatialeconomics.nl/) at Vrije Universiteit Amsterdam, supervised by Jos van Ommeren and Erik Verhoef.
 I studied at the [Tinbergen Institute](https://www.tinbergen.nl), the VU and the Universiteit van Amsterdam, and visited Dan Graham at Imperial College London's [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/) in 2019.
 
-My research is empirical transport and environmental economics, mostly built on natural experiments.
-I have studied smartphones and road safety, air pollution and cycling (and chess), and how cyclists respond to metro disruptions and new bike lanes, often with bike-sharing data from Paris, London and New York.
-My current projects, all in New York, are on taxi tips, e-bikes and protected bike lanes; see [Research](research.qmd).
+My research interests are in transport, urban and environmental economics, in particular cycling, road safety and air pollution.
+I mostly use natural experiments and large public datasets, such as trip data from bike-sharing schemes in Paris, London and New York.
+See [Research](research.qmd) for papers and work in progress.
 
 I'm also a musician: I play keys in [Flamingo Hitmix](https://flamingohitmix.com), drums in [Bovenburen](https://bovenburen.com), and I develop music software (see [Music](music.qmd)).
 
