@@ -40,7 +40,7 @@ I also make my own audio plugins for these projects. These days that is not hard
 ::: {.music-project}
 ### Previous music projects
 
-A selection of songs and live recordings from previous music projects, including electronic dub act Steppers for Mankind and live house act Novio.
+Before these bands, I played in the electronic dub act Steppers for Mankind and the live house act Novio.
 
 ::: {.link-row}
 <a href="https://open.spotify.com/search/steppers%20for%20mankind"><i class="bi bi-spotify"></i> Steppers for Mankind on Spotify</a>
