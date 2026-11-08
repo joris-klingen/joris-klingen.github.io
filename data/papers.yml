@@ -112,6 +112,10 @@
     all cabs face the same traffic.
 - id: nyc_cc
   title: 'Congestion Pricing and Road Safety: Evidence from New York City'
+  coauthors:
+  - Junjie Lin
+  - Cheng Keat Tang
+  - Jos van Ommeren
   status: wip
   year: 2026
   summary: Did New York's congestion charge make Manhattan's streets safer? We compare crashes inside
