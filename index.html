@@ -219,7 +219,7 @@ CPB Netherlands Bureau for Economic Policy Analysis
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/joris-klingen\.github\.io");
+        var filterRegex = new RegExp("https:\/\/jorisklingen\.nl");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
