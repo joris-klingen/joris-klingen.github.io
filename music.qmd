@@ -14,7 +14,7 @@ title: "Music"
 <a href="https://bovenburen.com"><i class="bi bi-globe"></i> Website</a>
 :::
 
-A four-piece band that writes and plays its own pop songs in Dutch, with David, Coos and Thomas. I play drums.
+A classic four piece band that writes and plays its own Dutch pop songs. I do the music production and play the drums.
 :::
 
 ::: {.music-card .band-card}
@@ -25,7 +25,7 @@ A four-piece band that writes and plays its own pop songs in Dutch, with David, 
 <a href="https://flamingohitmix.com"><i class="bi bi-globe"></i> Website</a>
 :::
 
-A trio from Amsterdam North that plays 90s club classics live, with a sugar-coated beat. Aliesje sings, Martinus and I play synths, and the light show runs on HitNoteDmx (see below). For parties, festivals and weddings: book us or send me a message.
+Electronic cover in which we remodel 90s club classics and play them live. I play keys. We're happy to play at your party or festival.
 :::
 :::
 
