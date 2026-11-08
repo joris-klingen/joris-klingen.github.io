@@ -6,13 +6,24 @@ subtitle: "Besides research and data science, I'm involved in music projects."
 ::: {.music-project}
 ### Bovenburen
 
-Dutch pop band. See our [Instagram](https://www.instagram.com/bovenburen/) or [bovenburen.com](https://bovenburen.com) for an impression, or listen on [Spotify](https://open.spotify.com/search/bovenburen).
+Dutch pop band. I play drums.
+
+::: {.link-row}
+<a href="https://open.spotify.com/artist/7HjgUEerLzE2qboXJXfBJj"><i class="bi bi-spotify"></i> Spotify</a>
+<a href="https://www.instagram.com/bovenburen/"><i class="bi bi-instagram"></i> Instagram</a>
+<a href="https://bovenburen.com"><i class="bi bi-globe"></i> bovenburen.com</a>
+:::
 :::
 
 ::: {.music-project}
 ### Flamingo Hitmix
 
-Electronic live dance act. See our [Instagram](https://www.instagram.com/flamingohitmix/) for an impression. You can book us for a live show or send me a message.
+Electronic live dance act. I play keys. You can book us for a live show or send me a message.
+
+::: {.link-row}
+<a href="https://www.instagram.com/flamingohitmix/"><i class="bi bi-instagram"></i> Instagram</a>
+<a href="https://flamingohitmix.com"><i class="bi bi-globe"></i> flamingohitmix.com</a>
+:::
 :::
 
 ::: {.music-project}
