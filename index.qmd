@@ -24,13 +24,13 @@ See [Research](research.qmd) for papers and work in progress.
 I hold a PhD from [Spatial Economics](https://spatialeconomics.nl/) at Vrije Universiteit Amsterdam, supervised by Jos van Ommeren and Erik Verhoef.
 I studied at [Tinbergen Institute](https://www.tinbergen.nl), VU Amsterdam and University of Amsterdam, and visited Dan Graham at Imperial College London's [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/) in 2019.
 
-I'm also a musician: I play keys in [Flamingo Hitmix](https://flamingohitmix.com) and drums in [Bovenburen](https://bovenburen.com), and I like to develop software that is used in these music projects (see [Music](music.qmd)).
+I'm also a musician: I play keys in [Flamingo Hitmix](https://flamingohitmix.com) and drums in [Bovenburen](https://bovenburen.com), and I like to develop software that is used in these music projects, see also the [music page](music.qmd).
 
 ::: {.link-row}
 <a href="https://scholar.google.co.uk/citations?user=lJSOTXcAAAAJ"><i class="bi bi-mortarboard"></i> Google Scholar</a>
 <a href="https://www.cpb.nl/medewerker/joris-klingen"><i class="bi bi-building"></i> cpb.nl</a>
 <a href="https://www.linkedin.com/in/joris-klingen-79664717/"><i class="bi bi-linkedin"></i> LinkedIn</a>
 <a href="https://github.com/joris-klingen"><i class="bi bi-github"></i> GitHub</a>
-<a href="https://flamingohitmix.com"><i class="bi bi-music-note-beamed"></i> flamingohitmix.com</a>
-<a href="https://bovenburen.com"><i class="bi bi-music-note-beamed"></i> bovenburen.com</a>
+<a href="https://flamingohitmix.com"><svg class="icon" viewBox="0 0 16 16" width="1em" height="1em" aria-hidden="true"><rect x="1" y="2.5" width="14" height="11" rx="1" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M4.5 9v4.5M8 9v4.5M11.5 9v4.5" stroke="currentColor" stroke-width="1.2"/><path d="M3.6 2.5h1.8V9H3.6zM7.1 2.5h1.8V9H7.1zM10.6 2.5h1.8V9h-1.8z" fill="currentColor"/></svg> flamingohitmix.com</a>
+<a href="https://bovenburen.com"><svg class="icon" viewBox="0 0 16 16" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" aria-hidden="true"><ellipse cx="8" cy="8.5" rx="6" ry="2"/><path d="M2 8.5v4c0 1.1 2.7 2 6 2s6-.9 6-2v-4"/><path d="M3.5 1.5 7.3 7.4M12.5 1.5 8.7 7.4"/></svg> bovenburen.com</a>
 :::
