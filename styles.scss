@@ -126,11 +126,6 @@ h2 {
 .music-card .card-meta { font-size: .85rem; color: $muted; }
 // Buttons sit at the bottom so cards of different text length line up
 .music-card .link-row { margin-top: auto; padding-top: .4rem; }
-.band-card { padding-top: 0; overflow: hidden; }
-.band-photo {
-  display: block; width: calc(100% + 2.4rem); max-width: none; margin: 0 -1.2rem 1rem;
-  aspect-ratio: 1 / 1; object-fit: cover; border-bottom: 1px solid $rule;
-}
 .music-earlier { font-size: .88rem; color: $muted; }
 .music-earlier p { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; }
 .music-earlier a {

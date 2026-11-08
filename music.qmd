@@ -5,9 +5,7 @@ title: "Music"
 ## Bands
 
 ::: {.card-grid}
-::: {.music-card .band-card}
-<img src="images/bovenburen.jpg" class="band-photo" alt="Joris playing drums on stage with Bovenburen" loading="lazy">
-
+::: {.music-card}
 ### Bovenburen
 
 [Dutch pop band · drums]{.card-meta}
@@ -21,9 +19,7 @@ Pop songs in Dutch, played as a four-piece band.
 :::
 :::
 
-::: {.music-card .band-card}
-<img src="images/flamingohitmix.jpg" class="band-photo" alt="Joris playing keys with Flamingo Hitmix at an outdoor festival" loading="lazy">
-
+::: {.music-card}
 ### Flamingo Hitmix
 
 [Electronic live dance act · keys]{.card-meta}
