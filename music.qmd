@@ -16,6 +16,17 @@ Electronic live dance act. See our [Instagram](https://www.instagram.com/flaming
 :::
 
 ::: {.music-project}
+### Music software
+
+I also make my own audio plugins for these projects. These days that is not hard anymore with the [JUCE](https://juce.com) framework and a solid LLM. All four are open source.
+
+- [HitNoteDmx](https://github.com/joris-klingen/hitnotedmx) turns MIDI notes into a live DMX light show, so the lights can be played from Ableton sets with MIDI clips or like an instrument. This is what drives our light show for Flamingo Hitmix.
+- [HitLaunchDmx](https://github.com/joris-klingen/hitlaunchdmx) is a standalone app that plays the same light show live without a DAW, from a Novation Launchpad and Launch Control.
+- [FlashRoll](https://github.com/joris-klingen/flashroll) is a sight-reading trainer that flashes notes and chords on a staff and waits for you to play them on a MIDI keyboard.
+- [HarmEQ](https://github.com/joris-klingen/harmeq) is a harmonic EQ whose bands follow the pitch of the note being played, great for shaping bass sounds.
+:::
+
+::: {.music-project}
 ### Previous music projects
 
 A selection of songs and live recordings from previous music projects, including electronic dub act Steppers for Mankind and live house act Novio.
