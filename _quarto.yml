@@ -1,12 +1,14 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - CNAME
   render:
     - "*.qmd"
 
 website:
   title: "Joris Klingen"
-  site-url: https://joris-klingen.github.io
+  site-url: https://jorisklingen.nl
   description: "Economist at CPB Netherlands Bureau for Economic Policy Analysis. Research in transport, urban and environmental economics."
   navbar:
     background: light
