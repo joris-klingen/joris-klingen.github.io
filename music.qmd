@@ -33,11 +33,6 @@ Available for live shows: book us or send me a message.
 :::
 :::
 
-::: {.music-earlier}
-Before these bands, I played in the electronic dub act Steppers for Mankind and the live house act Novio.
-<a href="https://open.spotify.com/search/steppers%20for%20mankind"><i class="bi bi-spotify"></i> Steppers for Mankind</a>
-:::
-
 ## Music software
 
 I also make my own audio plugins for these projects. These days that is not hard anymore with the [JUCE](https://juce.com) framework and a solid LLM. All four are open source.
@@ -91,3 +86,9 @@ A harmonic EQ whose bands follow the pitch of the note being played, great for s
 :::
 :::
 :::
+
+::: {.music-earlier}
+Before these bands, I played in the electronic dub act Steppers for Mankind and the live house act Novio.
+<a href="https://open.spotify.com/search/steppers%20for%20mankind"><i class="bi bi-spotify"></i> Steppers for Mankind</a>
+:::
+
