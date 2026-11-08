@@ -115,8 +115,34 @@ h2 {
 }
 
 // Music page ----
-.music-project { margin-bottom: 1.5rem; }
-.music-project h3 { font-size: 1.1rem; margin-bottom: .3rem; }
+.card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1.25rem; }
+.music-card {
+  display: flex; flex-direction: column;
+  background: $card; border: 1px solid $rule; border-radius: 10px; padding: 1.1rem 1.2rem 1.2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}
+.music-card h3 { font-size: 1.15rem; font-weight: 650; margin: 0 0 .15rem; }
+.music-card p { font-size: .92rem; margin-bottom: .6rem; }
+.music-card .card-meta { font-size: .85rem; color: $muted; }
+// Buttons sit at the bottom so cards of different text length line up
+.music-card .link-row { margin-top: auto; padding-top: .4rem; }
+.soft-card { padding-top: 0; overflow: hidden; }
+.soft-thumb {
+  display: flex; align-items: center; justify-content: center;
+  width: calc(100% + 2.4rem); margin: 0 -1.2rem 1rem; aspect-ratio: 2 / 1; object-fit: cover;
+  background: #1e1f22; color: #8fb3c9; font-size: 2.6rem; border-bottom: 1px solid $rule;
+}
+.music-earlier { font-size: .88rem; color: $muted; }
+.music-earlier p { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; }
+.music-earlier a {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-size: .8rem; font-weight: 500; padding: .2rem .65rem; border-radius: 6px;
+  border: 1px solid $rule; background: $card; color: $body-color;
+}
+.music-earlier a:hover { border-color: #1a5276; color: #1a5276; text-decoration: none; }
+@media (max-width: 576px) {
+  .card-grid { grid-template-columns: 1fr; }
+}
 
 // Ozone page ----
 .figure img, .quarto-figure img { max-width: 100%; border: 1px solid $rule; border-radius: 6px; }
