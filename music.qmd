@@ -35,9 +35,7 @@ I also make my own audio plugins for these projects. These days that is not hard
 
 ::: {.card-grid}
 ::: {.music-card}
-### HitNoteDmx
-
-Turns MIDI notes into a live DMX light show, so the lights can be played from Ableton sets with MIDI clips or like an instrument. This is what drives our light show for Flamingo Hitmix.
+**HitNoteDmx** turns MIDI notes into a live DMX light show, so the lights can be played from Ableton sets with MIDI clips or like an instrument. This is what drives our light show for Flamingo Hitmix.
 
 ::: {.link-row}
 <a href="https://github.com/joris-klingen/hitnotedmx"><i class="bi bi-github"></i> GitHub</a>
@@ -45,9 +43,7 @@ Turns MIDI notes into a live DMX light show, so the lights can be played from Ab
 :::
 
 ::: {.music-card}
-### HitLaunchDmx
-
-A standalone app that plays the same light show live without a DAW, from a Novation Launchpad and Launch Control.
+**HitLaunchDmx** is a standalone app that plays the same light show live without a DAW, from a Novation Launchpad and Launch Control.
 
 ::: {.link-row}
 <a href="https://github.com/joris-klingen/hitlaunchdmx"><i class="bi bi-github"></i> GitHub</a>
@@ -55,9 +51,7 @@ A standalone app that plays the same light show live without a DAW, from a Novat
 :::
 
 ::: {.music-card}
-### FlashRoll
-
-A sight-reading trainer that flashes notes and chords on a staff and waits for you to play them on a MIDI keyboard.
+**FlashRoll** is a sight-reading trainer that flashes notes and chords on a staff and waits for you to play them on a MIDI keyboard.
 
 ::: {.link-row}
 <a href="https://github.com/joris-klingen/flashroll"><i class="bi bi-github"></i> GitHub</a>
@@ -65,9 +59,7 @@ A sight-reading trainer that flashes notes and chords on a staff and waits for y
 :::
 
 ::: {.music-card}
-### HarmEQ
-
-A harmonic EQ whose bands follow the pitch of the note being played, great for shaping bass sounds.
+**HarmEQ** is a harmonic EQ whose bands follow the pitch of the note being played, great for shaping bass sounds.
 
 ::: {.link-row}
 <a href="https://github.com/joris-klingen/harmeq"><i class="bi bi-github"></i> GitHub</a>
