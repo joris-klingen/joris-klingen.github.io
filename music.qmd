@@ -35,7 +35,7 @@ I also make my own audio plugins for these projects. These days that is not hard
 
 ::: {.card-grid}
 ::: {.music-card}
-**HitNoteDmx** turns MIDI notes into DMX, so lights can be triggered from MIDI clips or played like an instrument. This VST drives our light show for Flamingo Hitmix.
+**HitNoteDmx** turns MIDI notes into DMX, so lights can be triggered with MIDI. This VST plugin drives our light show for Flamingo Hitmix.
 
 ::: {.link-row}
 <a href="https://github.com/joris-klingen/hitnotedmx"><i class="bi bi-github"></i> GitHub</a>
