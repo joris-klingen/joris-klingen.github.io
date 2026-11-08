@@ -123,9 +123,10 @@ h2 {
 }
 .music-card h3 { font-size: 1.15rem; font-weight: 650; margin: 0 0 .15rem; }
 .music-card p { font-size: .92rem; margin-bottom: .6rem; }
-.music-card .card-meta { font-size: .85rem; color: $muted; }
 // Buttons sit at the bottom so cards of different text length line up
 .music-card .link-row { margin-top: auto; padding-top: .4rem; }
+.band-card .link-row { margin: .3rem 0 .6rem; padding-top: 0; }
+.band-card .link-row p { margin-bottom: 0; }
 .music-earlier { font-size: .88rem; color: $muted; }
 .music-earlier p { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; }
 .music-earlier a {
