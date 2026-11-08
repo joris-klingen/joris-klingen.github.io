@@ -10,7 +10,7 @@ title: "Music"
 
 [Dutch pop band · drums]{.card-meta}
 
-Pop songs in Dutch, played as a four-piece band.
+A four-piece band that writes and plays its own pop songs in Dutch, with David, Coos and Thomas. Our releases are on Spotify.
 
 ::: {.link-row}
 <a href="https://open.spotify.com/artist/7HjgUEerLzE2qboXJXfBJj"><i class="bi bi-spotify"></i> Spotify</a>
@@ -24,7 +24,7 @@ Pop songs in Dutch, played as a four-piece band.
 
 [Electronic live dance act · keys]{.card-meta}
 
-Available for live shows: book us or send me a message.
+A trio from Amsterdam North that plays 90s club classics live, with a sugar-coated beat. Aliesje sings, Martinus and I play synths, and the light show runs on HitNoteDmx (see below). For parties, festivals and weddings: book us or send me a message.
 
 ::: {.link-row}
 <a href="https://www.instagram.com/flamingohitmix/"><i class="bi bi-instagram"></i> Instagram</a>
