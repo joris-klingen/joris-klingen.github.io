@@ -80,24 +80,6 @@
     bicycles can alleviate time losses stemming from interruptions in public transport.
   links:
     doi: 10.1016/j.tra.2018.10.018
-- id: nyc_tips
-  title: Do Passengers Punish Drivers for Bad Luck? Traffic Delays and Taxi Tips
-  coauthors:
-  - Jos van Ommeren
-  status: wip
-  year: 2026
-  summary: Do customers punish workers for bad luck? We compare how New York taxi passengers tip when
-    their driver is slower than other cabs on the same route at the same moment with how they tip when
-    all cabs face the same traffic.
-- id: nyc_effort
-  title: Buying time or buying ease? E-bike choice in New York's bike sharing
-  coauthors:
-  - Jos van Ommeren
-  status: wip
-  year: 2026
-  summary: Do people pay for an e-bike only for the time it saves, or also to avoid physical effort? We
-    study how Citi Bike members in New York choose between a free classic bike and a paid e-bike, uphill
-    and downhill on the same station pair.
 - id: nyc_bikelanes
   title: 'Protected bike lanes, rerouting and cycling safety: Evidence from Manhattan'
   coauthors:
@@ -110,6 +92,31 @@
   summary: Do protected bike lanes make cycling safer, or do they mostly move cyclists onto the protected
     streets? We study how cyclists reroute and how crashes change when Manhattan streets get a protected
     lane.
+- id: nyc_effort
+  title: Buying time or buying ease? E-bike choice in New York's bike sharing
+  coauthors:
+  - Jos van Ommeren
+  status: wip
+  year: 2026
+  summary: Do people pay for an e-bike only for the time it saves, or also to avoid physical effort? We
+    study how Citi Bike members in New York choose between a free classic bike and a paid e-bike, uphill
+    and downhill on the same station pair.
+- id: nyc_tips
+  title: Do Passengers Punish Drivers for Bad Luck? Traffic Delays and Taxi Tips
+  coauthors:
+  - Jos van Ommeren
+  status: wip
+  year: 2026
+  summary: Do customers punish workers for bad luck? We compare how New York taxi passengers tip when
+    their driver is slower than other cabs on the same route at the same moment with how they tip when
+    all cabs face the same traffic.
+- id: nyc_cc
+  title: 'Congestion Pricing and Road Safety: Evidence from New York City'
+  status: wip
+  year: 2026
+  summary: Did New York's congestion charge make Manhattan's streets safer? We compare crashes inside
+    and outside the charging zone before and after January 2025, taking into account that the charge also
+    cuts traffic in nearby areas.
 - id: phd_thesis
   title: Natural Experiments in Environmental and Transport Economics
   status: thesis
