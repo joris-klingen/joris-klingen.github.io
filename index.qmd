@@ -5,7 +5,11 @@ pagetitle: "Joris Klingen"
 ::: {.hero .hero-grid}
 ::: {.hero-text}
 <p class="name">Joris Klingen</p>
-<p class="role">Economist at CPB Netherlands Bureau for Economic Policy Analysis</p>
+<p class="role">CPB Netherlands Bureau for Economic Policy Analysis</p>
+
+::: {.chips}
+<span>Economist</span><span>Data scientist</span><span>Musician</span><span>Developer</span>
+:::
 :::
 
 <img src="images/joris.png" class="portrait" alt="Portrait of Joris Klingen">
