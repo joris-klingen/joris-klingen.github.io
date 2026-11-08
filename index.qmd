@@ -22,7 +22,7 @@ Much of my research uses large datasets, like bike-share trips, taxi rides and e
 See [Research](research.qmd) for papers and work in progress.
 
 I hold a PhD from [Spatial Economics](https://spatialeconomics.nl/) at Vrije Universiteit Amsterdam, supervised by Jos van Ommeren and Erik Verhoef.
-I studied, and did a lot of teaching, at [Tinbergen Institute](https://www.tinbergen.nl), VU Amsterdam and University of Amsterdam, and visited Dan Graham at Imperial College London's [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/) in 2019.
+I studied, and did a lot of [teaching](teaching.qmd), at [Tinbergen Institute](https://www.tinbergen.nl), VU Amsterdam and University of Amsterdam, and visited Dan Graham at Imperial College London's [Transport Strategy Centre](https://www.imperial.ac.uk/transport-engineering/transport-strategy-centre/) in 2019.
 
 I'm also a musician: I play keys in [Flamingo Hitmix](https://flamingohitmix.com) and drums in [Bovenburen](https://bovenburen.com), and I like to develop software that is used in these music projects, see also the [music page](music.qmd).
 
