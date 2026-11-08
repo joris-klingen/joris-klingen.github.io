@@ -4,3 +4,8 @@ _site/
 **/*.quarto_ipynb
 
 /.quarto/
+
+# RStudio project (local only)
+*.Rproj
+.Rproj.user/
+.Rhistory
